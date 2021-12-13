@@ -1,0 +1,121 @@
+.filters-group-container {
+  margin-top: 16px;
+  width: 100%;
+  padding: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+/* Write your CSS here */
+.searchbar-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 35px;
+  padding: 5px;
+  background-color: #f1f5f9;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.search-bar {
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  width: 100%;
+}
+
+.search-icon {
+  width: 15px;
+  height: 15px;
+  color: #64748b;
+}
+
+.category {
+  color: #12022f;
+  font-size: 14px;
+  align-self: flex-start;
+  margin-top: 20px;
+}
+
+.category-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  align-self: flex-start;
+}
+
+.category-item {
+  background-color: transparent;
+  margin-top: 10px;
+  padding: 0px;
+}
+
+.category-btn {
+  color: #64748b;
+  width: auto;
+  font-size: 13px;
+  border-style: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0px;
+}
+
+.rating-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-style: none;
+  outline: none;
+  background-color: transparent;
+  color: #64748b;
+  padding: 0px;
+}
+
+.rating-image {
+  width: 100px;
+}
+
+.up {
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+.clear-btn {
+  color: #0967d2;
+  border-style: solid;
+  border-color: #0967d2;
+  border-width: 1px;
+  background-color: transparent;
+  padding: 5px;
+  width: 80px;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  align-self: flex-start;
+  margin-top: 20px;
+}
+
+.add-color {
+  color: #0967d2;
+}
